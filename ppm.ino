@@ -17,7 +17,10 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   servo_pitch.writeMicroseconds(_pulse_capt[0]);
-  Serial.println(_pulse_capt[0]);
+  Serial.print(_pulse_capt[0]);    // chanel 1
+  Serial.print(_pulse_capt[1]);    // chanel 2
+  Serial.print(_pulse_capt[2]);    // chanel 3
+  Serial.println(_pulse_capt[3]);  // chanel 4
 }
 
 
