@@ -22,7 +22,7 @@ void loop() {
 
 
 void inits(void) {
-  /* Arduino pin 48 is ICP1 / PL1,  timer 1 input capture */
+  /* Arduino pin 8,  timer 1 input capture */
   pinMode(8, INPUT);
   /**
      WGM: 1 1 1 1. Fast WPM, TOP is in OCR1A
