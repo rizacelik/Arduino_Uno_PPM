@@ -1,4 +1,4 @@
-#include <Servo_Rc_PWM.h>
+#include <Servo.h>
 Servo servo_roll, servo_pitch;
 
 #define AVR_RC_INPUT_NUM_CHANNELS 10
